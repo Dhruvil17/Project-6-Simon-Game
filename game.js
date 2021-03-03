@@ -11,7 +11,7 @@ $(".start").click(function () {
  if (!started2)
  {
   nextSequence();
-  started2 = false;
+  started2 = true;
  }
 });
 
@@ -20,7 +20,7 @@ $(document).keypress(function ()
  if (!started1)
  {
   nextSequence();
-  started1 = false;
+  started1 = true;
  }
 });
 
