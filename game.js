@@ -97,4 +97,5 @@ function startOver()
  gamePattern = [];
  userClickedPattern = [];
  started1 = false;
+ started2 = false;
 }
